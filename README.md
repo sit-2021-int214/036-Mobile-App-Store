@@ -1,4 +1,4 @@
-# 036-Mobile_App
+# 036-Mobile-App-Store
 Datasets from: https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps
 
 ## Objective
