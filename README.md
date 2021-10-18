@@ -5,7 +5,7 @@ Datasets from: https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps
 This data set contains more than 7000 Apple iOS mobile application details. The data was extracted from the iTunes Search API at the Apple Inc website. R and linux web scraping tools were used for this study.
 
 ## Overview
-กลุ่มของเราเลือกชุดข้อมูลนี้เพราะต้องการศึกษาค่าเฉลี่ยความสุขของคนในเเต่ละประเทศ กับการบริโภคเครื่องดื่มเเอลกอฮอล์ในเเต่ละประเภทนั้นมีความสัมพันธ์กันมากน้อยเเค่ไหน อีกทั้งข้อมูลชุดนี้ยังเเสดงให้เห็นถึงค่า GDP และ HDI ของในเเต่ละประเทศอีกด้วย ซึ่งทำให้เราสามารถเห็นความสัมพันธ์ในหลายๆ ด้าน
+เนื่องจากสมาชิกทุกคนในกลุ่มของเรา สนใจและศึกษาเกี่ยวกับจำนวนผู้ใช้แอพพลิเคชั่นว่า ทำไมถึงมีจำนวนการดาว์โหลดเป็นจำนวนมาก และแอพพลิเคชั่นที่ดาวโหลดนั่นเป็นที่เกี่ยวกับอะไร
 
 ## Objective
 
