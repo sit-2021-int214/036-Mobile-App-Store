@@ -7,8 +7,6 @@ This data set contains more than 7000 Apple iOS mobile application details. The 
 ## Overview
 กลุ่มของเราเลือกชุดข้อมูลนี้เพราะสนใจและต้องการศึกษาเกี่ยวกับจำนวนผู้ใช้แอพพลิเคชั่นว่า ทำไมถึงมีจำนวนการดาวน์โหลดเป็นจำนวนมาก และแอพพลิเคชั่นที่ผู้ใช้งานดาวน์โหลดนั้นเป็นแอพที่เกี่ยวกับอะไร
 
-## Objective
-
 ### Steps
 1. Define a question
 2. Search Datasets from Kaggle
