@@ -9,6 +9,10 @@ Datasets from: https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps
 5. Exploratory Data Analysis
 
 ## Step 1: Define a question
+1. `ประเภทของแอปที่มีจำนวนมากที่สุด`
+2. `แอปที่มียอดดาว์โหลดและแพงที่สุด`
+3. `แอปประเภทเกมที่มีจำนวน byte ที่มากที่สุด`
+
 ## Step 2: Observe and find related dataset
 ## Step 3: Export & Explore dataset from Kaggle
 Dataset ประกอบไปด้วยข้อมูลทั้งหมด 16 คอลัมน์
