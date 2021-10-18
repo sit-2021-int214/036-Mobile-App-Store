@@ -12,9 +12,9 @@ Datasets from: https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps
 ## Step 2: Observe and find related dataset
 ## Step 3: Export & Explore dataset from Kaggle
 Dataset ประกอบไปด้วยข้อมูลทั้งหมด 16 คอลัมน์
-1. id: ID แอพ
-2. track_name: ชื่อของแอปพลิเคชั่น
-3. size_bytes: ขนาดของแอป (หน่วยเป็น byte)
+1. `id`: ID แอพ
+2. `track_name`: ชื่อของแอปพลิเคชั่น
+3. `size_bytes`: ขนาดของแอป (หน่วยเป็น byte)
 4. currency: ประเภทสกุลเงิน
 5. price: ราคา
 6. rating_count_to: การนับคะแนนของผู้ใช้ (สำหรับทุกเวอร์ชัน)
