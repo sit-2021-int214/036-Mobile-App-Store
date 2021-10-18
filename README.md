@@ -5,7 +5,7 @@ Datasets from: https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps
 This data set contains more than 7000 Apple iOS mobile application details. The data was extracted from the iTunes Search API at the Apple Inc website. R and linux web scraping tools were used for this study.
 
 ## Overview
-กลุ่มของเราเลือกชุดข้อมูลนี้เพราะสนใจและต้องการศึกษาเกี่ยวกับจำนวนผู้ใช้แอพพลิเคชั่นว่า ทำไมถึงมีจำนวนการดาว์โหลดเป็นจำนวนมาก และแอพพลิเคชั่นที่ดาวโหลดนั่นเป็นที่เกี่ยวกับอะไร
+กลุ่มของเราเลือกชุดข้อมูลนี้เพราะสนใจและต้องการศึกษาเกี่ยวกับจำนวนผู้ใช้แอพพลิเคชั่นว่า ทำไมถึงมีจำนวนการดาวน์โหลดเป็นจำนวนมาก และแอพพลิเคชั่นที่ผู้ใช้งานดาวน์โหลดนั้นเป็นแอพที่เกี่ยวกับอะไร
 
 ## Objective
 
