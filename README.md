@@ -10,7 +10,7 @@ This data set contains more than 7000 Apple iOS mobile application details. The 
 ### Steps
 1. Define a question
 2. Observe and find related dataset
-3. Export Dataset from Kaggle
+3. Export & Explore dataset from Kaggle
 4. Data Cleaning and Data Transformation
 5. Exploratory Data Analysis
 
