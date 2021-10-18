@@ -11,7 +11,11 @@ This data set contains more than 7000 Apple iOS mobile application details. The 
 
 ### Steps
 1. Define a question
-2. Observe...
+2. Search Datasets from Kaggle
+3. Export Datasets from Kaggle
+4. Explore the dataset from the original dataset
+5. Data Cleaning and Data Transformation
+6. Exploratory Data Analysis
 
 ### Tools
 - R Language
@@ -19,11 +23,14 @@ This data set contains more than 7000 Apple iOS mobile application details. The 
 
 ## Table of Contents
 1. [Exploratory Data Analysis](./01_explore.md)
-2. [Data Visualization]() ---> อันนี้เป็นงานของ Final Assignment นะครับพี่แค่แปะหัวข้อตัวอย่างไว้
+2. [Data Visualization]()
 
 ## Resources
 
 ### Important Files in Repository
+
+### References
+https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps
 
 ## About Us
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
