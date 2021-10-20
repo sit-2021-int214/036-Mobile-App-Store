@@ -21,7 +21,7 @@ Datasets from: https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps
 - [x] R Studio Desktop
 
 ## Table of Contents
-1. `MIDTERM` [Exploratory Data Analysis](./01_explore.md)
+1. `MIDTERM` [Exploratory Data Analysis](./01_exploration.md)
 2. `FINAL` [Data Visualization]()
 
 ## Resources
