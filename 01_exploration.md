@@ -23,7 +23,6 @@ install.packages("assertive")
 install.packages("stringr")
 install.packages("readr")
 install.packages("tidyr")
-install.packages("tidyverse")
 
 # Use Package by library() command
 library("dplyr")
@@ -31,7 +30,6 @@ library("assertive")
 library("stringr")
 library("readr")
 library("tidyr")
-library("tidyverse")
 
 # Import Dataset
 mobiles <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/036-Mobile-App-Store/master/AppleStore.csv")
