@@ -32,7 +32,7 @@ library("readr")
 library("tidyr")
 
 # Import Dataset
-mobiles <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/036-Mobile-App-Store/master/AppleStore.csv")
+mobiles <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/036-Mobile-App-Store/master/Mobiles.csv")
 View(mobiles)
 ```
 
