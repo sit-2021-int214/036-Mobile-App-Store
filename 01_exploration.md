@@ -107,12 +107,16 @@ mobiles_app <- mobiles_app %>% mutate(price = price * 33.40)
 ### 1. ประเภทของแอปพลิเคชั่นที่มีจำนวนมากที่สุด
 #### Code
 ```
+mobiles_app %>% count(prime_genre,sort = TRUE) %>% head(n = 1)
 ```
 #### Result
 ```
+  prime_genre    n
+1       Games 3862
 ```
 #### Conclusion
 ```
+Games เป็นประเภทที่มากที่สุดซึ่งมีทั้งหมด 3862 แอปพลิเคชั่น
 ```
 
 ### 2. แอปพลิเคชั่นที่มียอดดาวน์โหลดและแพงที่สุด
