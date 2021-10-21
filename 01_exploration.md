@@ -173,10 +173,15 @@ count(paid_app)
 ### 5. แอปพลิเคชั่นที่เกี่ยวข้องกับการศึกษาและรองรับภาษามากที่สุด
 #### Code
 ```
+education_app <- mobiles_app %>% select(track_name, prime_genre, lang.num) %>% filter(prime_genre == "Education")
+education_app %>% arrange(desc(lang.num)) %>% head(n = 1)
 ```
 #### Result
 ```
+                 track_name prime_genre lang.num
+1 The Human Body by Tinybop   Education       58
 ```
 #### Conclusion
 ```
+แอปพลิเคชั่นที่เกี่ยวข้องกับการศึกษาและรองรับภาษามากที่สุด คือ The Human Body By Tinybop มีทั้งหมด 58 ภาษา
 ```
