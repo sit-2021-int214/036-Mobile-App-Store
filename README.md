@@ -27,6 +27,8 @@ Datasets from: https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps
 ## Resources
 
 ### Important Files in Repository
+- [01_exploration.md](./01_exploration.md) : Exploratory Data Analysis
+- [Mobiles.csv](./Mobiles.csv) : Original Dataset
 
 ### References
 Dataset from Kaggle https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps
