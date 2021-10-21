@@ -104,3 +104,57 @@ mobiles_app <- mobiles_app %>% mutate(price = price * 33.40)
 ```
 
 ## Step 5: Exploratory Data Analysis
+### 1. 
+#### Code
+```
+```
+#### Result
+```
+```
+#### Conclusion
+```
+```
+
+### 2.
+#### Code
+```
+```
+#### Result
+```
+```
+#### Conclusion
+```
+```
+
+### 3.
+##### Code
+```
+```
+#### Result
+```
+```
+#### Conclusion
+```
+```
+
+### 4.
+#### Code
+```
+```
+#### Result
+```
+```
+#### Conclusion
+```
+```
+
+### 5.
+#### Code
+```
+```
+#### Result
+```
+```
+#### Conclusion
+
+
