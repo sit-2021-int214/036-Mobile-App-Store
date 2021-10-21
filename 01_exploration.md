@@ -119,15 +119,19 @@ mobiles_app %>% count(prime_genre,sort = TRUE) %>% head(n = 1)
 Games เป็นประเภทที่มากที่สุดซึ่งมีทั้งหมด 3862 แอปพลิเคชั่น
 ```
 
-### 2. แอปพลิเคชั่นที่มียอดดาวน์โหลดและแพงที่สุด
+### 2. แอปพลิเคชั่นที่มีราคาแพงที่สุดที่สุด
 #### Code
 ```
+mobiles_app %>% arrange(desc(price)) %>% select(track_name, price) %>% head(n = 1)
 ```
 #### Result
 ```
+           track_name    price
+1 LAMP Words For Life 10019.67
 ```
 #### Conclusion
 ```
+แอปพลิเคชั่นที่แพงที่สุดคือ LAMP Words For Life ราคา 10,019.67 บาท
 ```
 
 ### 3. แอปพลิเคชั่นประเภทเกมที่มีจำนวน MB ที่มากที่สุด
