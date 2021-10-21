@@ -13,7 +13,7 @@ Datasets from: https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps
 2. แอปพลิเคชั่นที่มีราคาแพงที่สุด
 3. ขนาดที่ใหญ่ที่สุดของแอปพลิเคชั่นประเภทเกม
 4. จำนวนทั้งหมดของแอปพลิเคชั่นฟรีและแอปพลิเคชั่นที่เสียค่าใช้จ่าย
-5. แอปพลิเคชั่นที่เกี่ยวข้องกับการศึกษาและรองรับภาษามากที่สุด
+5. แอปพลิเคชั่นที่เกี่ยวข้องกับการศึกษาและรองรับภาษามากกว่า 35 ภาษา
 
 ## Step 2: Import Packages and dataset
 ```
@@ -153,10 +153,8 @@ size_game %>% arrange(desc(size_mb)) %>% head(n = 1)
 ### 4. จำนวนทั้งหมดของแอปพลิเคชั่นฟรีและแอปพลิเคชั่นที่เสียค่าใช้จ่าย
 #### Code
 ```
-free_app <- mobiles_app %>% filter(price == 0)
-paid_app <- mobiles_app %>% filter(price > 0)
-count(free_app)
-count(paid_app)
+mobiles_app %>% filter(price == 0) %>% count()
+mobiles_app %>% filter(price > 0) %>% count()
 ```
 #### Result
 ```
@@ -170,18 +168,29 @@ count(paid_app)
 แอปพลิเคชั่นฟรีมีทั้งหมด 4056 แอปพลิเคชั่น ส่วนแอปพลิเคชั่นที่ต้องเสียค่าใช้จ่ายมีทั้งหมด 3141 แอปพลิเคชั่น
 ```
 
-### 5. แอปพลิเคชั่นที่เกี่ยวข้องกับการศึกษาและรองรับภาษามากที่สุด
+### 5. แอปพลิเคชั่นที่เกี่ยวข้องกับการศึกษาและรองรับภาษามากกว่า 35 ภาษา
 #### Code
 ```
-education_app <- mobiles_app %>% select(track_name, prime_genre, lang.num) %>% filter(prime_genre == "Education")
-education_app %>% arrange(desc(lang.num)) %>% head(n = 1)
+education_app <- mobiles_app %>% select(track_name, prime_genre, lang.num) %>% filter(prime_genre == "Education") 
+education_app %>% select(track_name, prime_genre, lang.num) %>% filter(lang.num > 35)
 ```
 #### Result
 ```
-                 track_name prime_genre lang.num
-1 The Human Body by Tinybop   Education       58
+                          track_name prime_genre lang.num
+1                          ClassDojo   Education       55
+2          The Human Body by Tinybop   Education       58
+3         Simple Machines by Tinybop   Education       58
+4       The Robot Factory by Tinybop   Education       58
+5  The Everything Machine by Tinybop   Education       58
+6               The Earth by Tinybop   Education       58
+7            The Monsters by Tinybop   Education       58
+8                 Weather by Tinybop   Education       58
+9     The Infinite Arcade by Tinybop   Education       58
+10            Skyscrapers by Tinybop   Education       58
+11                  Space by Tinybop   Education       58
+12                     Me by Tinybop   Education       58
 ```
 #### Conclusion
 ```
-แอปพลิเคชั่นที่เกี่ยวข้องกับการศึกษาและรองรับภาษามากที่สุด คือ The Human Body By Tinybop มีทั้งหมด 58 ภาษา
+แอปพลิเคชั่นที่เกี่ยวข้องกับการศึกษาและรองรับภาษามากกว่า 35 ภาษา มีทั้งหมด 12 แอปพลิเคชั่น
 ```
