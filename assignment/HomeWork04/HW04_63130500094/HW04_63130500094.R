@@ -45,7 +45,24 @@ customer_order %>% tally(sort = TRUE) %>% head(n=3)
 superstore %>% summarise(mean(superstore$Sales)) %>% rename("Average Sales" = `mean(superstore$Sales)`)
 
 ### Visualization with GGplot2
-#1 จำนวน Order ทั้งหมดใน
+#1 Total Order For Each Shipping Type
 shipping_order <- data.frame(table(superstore$Ship.Mode))
 shipping_order <- shipping_order %>% rename("shipping"=Var1, "order"=Freq)
-shipping_order %>% ggplot(aes(x=shipping, y=order)) + geom_bar(fill="#FE000", stat="identity")
+shipping_order %>% 
+  ggplot(aes(x=shipping, y=order)) + 
+  geom_bar(fill="#2F847C", stat="identity") +
+  geom_text(aes(label = order), position = position_identity()) +
+  coord_flip() +
+  theme_light() +
+  ggtitle("Total Order for Each Shipping Type")
+
+#2 Total Order For Each Category
+category_order <- data.frame(table(superstore$Category))
+category_order <- category_order %>% rename("category"=Var1, "order"=Freq)
+category_order %>% 
+  ggplot(aes(x="", y=order, fill=category)) + 
+  geom_bar(stat="identity", width=1, color="black") +
+  coord_polar("y", start=0) +
+  theme_light() +
+  geom_text(aes(label = percent(order/sum(order))), position = position_stack(vjust=0.45))
+
