@@ -25,7 +25,7 @@ alpha = 0.05
 ```
 t <- (sample_price_mean-mue0)/(sample_price_sd*(sqrt(n)))
 ```
-### Result
+#### Result
 ```
 t = 0.00507
 ```
@@ -34,7 +34,7 @@ t = 0.00507
 ```
 pvalue <- pt(t, n-1, lower.tail = TRUE)
 ```
-### Result
+#### Result
 ```
 pvalue = 0.502
 ```
@@ -47,11 +47,21 @@ if(pvalue <= alpha) {
   print('Accept Ho')
 }
 ```
-### Result
+#### Result
 ```
 Accept Ho
 ```
 
-### Step 6: Conclusion
+### Step 6 : Interval Estimation
 ```
+se_of_mean <- sample_price_mean/sqrt(n)
+margin <- 1.96*se_of_mean
+upper <- sample_price_mean + margin
+lower <- sample_price_mean - margin
+```
+#### Result
+```
+upper = 79.3758
+lower = 57.4751
+# 79.3758 < sample_price_mean < 57.4751
 ```
