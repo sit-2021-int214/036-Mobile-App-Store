@@ -23,7 +23,7 @@ Datasets from: https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps
 ## Table of Contents
 1. `MIDTERM` [Exploratory Data Analysis](./01_exploration.md)
 2. `FINAL` [Data Visualization](https://app.powerbi.com/view?r=eyJrIjoiY2I0ZTVjYTAtZTYxNC00NTQ4LWE0OWItZjlkNTkxMmM2NDU4IiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D)
-3. `FINAL` [Hypotisis Testing](./Hypotisis_Testing.md)
+3. `FINAL` [Hypothesis_Testing](./Hypothesis_Testing.md)
 ## Resources
 
 ### Important Files in Repository
