@@ -1,7 +1,7 @@
-# Hypothesis testing
+# Hypothesis Testing
 
 ## Question
-
+ค่าเฉลี่ยของราคา Application จากตัวอย่าง 150 application จะมีค่าไม่เท่ากับ 57.65 บาท ซึ่งเป็นค่าเฉลี่ยของราคา Application ทั้งหมด (กำหนดค่า alpha = 0.05)
 
 ### Step 0 : Import Libray & CSV
 ```
@@ -67,3 +67,4 @@ lower = 57.4751
 ```
 
 ### Step 7 : Conclusion
+ค่าเฉลี่ยของราคา Application จากตัวอย่าง 150 application จะมีค่าไม่เท่ากับ 57.65 บาท ซึ่งเป็นค่าเฉลี่ยของราคา Application ทั้งหมด
